@@ -1,8 +1,23 @@
+html,
 body {
+  height: 100%;
+}
+
+body,
+a {
   color: $default;
   font-size: 16px;
   line-height: 120%;
   @extend %Quicksand-500;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 .container {
